@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 3px 4px 3px black;
+}
+
+.left_box {
+    width: 48%;
+    float: left;
+    /* border: 1px solid yellow; */
+    background-color: #582D9A;
+}
+
+.right_box {
+    width: 48%;
+    float: right;
+    /* border: 1px solid green; */
+}
+
+.fix label {
+    display: block;
+    color: white;
+    font-weight: 500;
+    padding: 33px;
+    padding-top: 44px;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.fix input {
+    margin-left: 33px;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #582D9A;
+    border-bottom: 2px solid #999;
+    padding: 10px 0;
+    padding-bottom: 12px;
+    padding-top: 30px;
+    /* border: 1px solid yellow; */
+}
+
+.fix input::placeholder {
+    color: white;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+
+.fix input::placeholder {
+    color: yellow;
+    opacity: 0.5;
+}
+
+.fix textarea {
+    width: 80%;
+    height: 200px;
+    color: white;
+    background-color: #582D9A;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    border: 1px solid #999;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.fix button {
+    padding: 10px;
+    color: white;
+    background-color: #C83593;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+
+}
+
+.fix button:hover {
+    background-color: purple;
+    color: yellow;
+}
+
+.right_box h2 {
+    margin-top: 46px;
+}
+
+.right_box hr {
+    width: 10%;
+    border: 2px solid #C83593;
+
+}
+
+.right_box p {
+    margin-top: 16px;
+}
+
+.menu {
+    margin-top: 44px;
+    margin-bottom: 200px;
+}
+
+.menu ul {}
+
+.menu ul li {
+    padding: 16px;
+    list-style: none;
+    color: #B8B5B8;
+}
+
+.menu ul li i {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: black;
+}
+
+.mrl_30 {
+    margin-left: 52px;
+}
+
+.bold {
+    color: black;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+footer button {
+    padding: 8px 8px;
+    background-color: #C83593;
+    border: none;
+}
+
+footer button a {
+    text-decoration: none;
+}
